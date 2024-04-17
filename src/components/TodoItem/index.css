@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.list-con {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.para-title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.delete-btn {
+  color: #ff0b37;
+  height: 40px;
+
+  min-width: 80px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ff0b37;
+  cursor: pointer;
+  background-color: #ffffff;
+}
